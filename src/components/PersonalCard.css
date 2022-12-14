@@ -1,0 +1,21 @@
+.card{
+    background-color: aliceblue;
+    width: 280px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    border: 10px;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #222121;
+    border-width: 2px;
+    padding: 8px 0px 2px 0px;
+    margin: 2em;
+}
+
+.photo{
+    display:block;
+    margin:auto;
+}
