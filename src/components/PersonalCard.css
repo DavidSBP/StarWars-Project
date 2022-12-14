@@ -1,5 +1,4 @@
 .card{
-    background-color: #222121;
     width: 260px;
     height: auto;
     align-items: center;
@@ -13,6 +12,7 @@
     border-width: 2px;
     padding: 8px 0px 2px 0px;
     margin: 2em;
+    background-color: #222121;
 }
 
 .photo{

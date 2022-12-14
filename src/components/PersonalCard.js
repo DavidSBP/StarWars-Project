@@ -2,14 +2,14 @@ import React from 'react';
 import JhonDoe from '../assets/img/JhonDoe.png';
 import './PersonalCard.css'
 
-const PersonalCard = () => {
+const PersonalCard = (props) => {
     return (  
         <div className='card'>
             <img className='photo' src={JhonDoe} />
-            <p>Name: Luke Skywalker</p>
-            <p>Height: 172 cm</p>
-            <p>Mass: 77 kg</p>
-            <p>Gender: male</p>
+            <p>Name: {props.character.name}</p>
+            <p>Height: {props.character.height} cm</p>
+            <p>Mass: {props.character.mass} kg</p>
+            <p>Gender: {props.character.gender}</p>
         </div>
     );
 }
