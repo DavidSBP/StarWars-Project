@@ -1,13 +1,13 @@
 import React from 'react';
-import HeaderApp from './components/HeaderApp';
-import PersonalCard from './components/PersonalCard'
 import "./App.css"
+import HeaderApp from './components/HeaderApp';
+import CardCollection from './components/CardCollection';
 
 function App() {
   return (
     <div>
       <HeaderApp/>
-      <PersonalCard/>
+      <CardCollection/>
     </div>
   );
 }

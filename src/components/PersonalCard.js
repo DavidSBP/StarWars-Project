@@ -6,10 +6,10 @@ const PersonalCard = () => {
     return (  
         <div className='card'>
             <img className='photo' src={JhonDoe} />
-            <p>Luke Skywalker</p>
-            <p>172 cm</p>
-            <p>77 kg</p>
-            <p>male"</p>
+            <p>Name: Luke Skywalker</p>
+            <p>Height: 172 cm</p>
+            <p>Mass: 77 kg</p>
+            <p>Gender: male</p>
         </div>
     );
 }
