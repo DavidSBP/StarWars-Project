@@ -4,13 +4,16 @@ import './CardCollection.css'
 
 const CardCollection = () => {
     return ( 
-        <div className='fully'>
-            <PersonalCard/>
-            <PersonalCard/>
-            <PersonalCard/>
-            <PersonalCard/>
-            <PersonalCard/>
-        </div>
+        <>
+            <input className='search' type= 'search'/>
+            <div className='fully'>
+                <PersonalCard/>
+                <PersonalCard/>
+                <PersonalCard/>
+                <PersonalCard/>
+                <PersonalCard/>
+            </div>
+        </>
      );
 }
  
