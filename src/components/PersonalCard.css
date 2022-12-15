@@ -13,6 +13,12 @@
     padding: 8px 0px 2px 0px;
     margin: 2em;
     background-color: #222121;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: background-color .5s;
+}
+
+.card:hover{
+    background-color: #750a0a;
 }
 
 .photo{

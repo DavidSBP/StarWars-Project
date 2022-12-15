@@ -2,10 +2,25 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #464545;
+    background-color: #EAE6CA;
 }
 
 .search{
     width: 90%;
     margin-left: 2em;
+}
+
+.nextButton{
+    
+    height: 40px;
+    width: 100px;
+    position: relative;
+    justify-items: center;
+    margin: 50px 10px 50px 10px;
+}
+
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
